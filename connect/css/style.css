@@ -1,0 +1,43 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.socialacc {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+  width: 75%;
+  border-radius: 8px;
+}
+
+.socialbox {
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.socialbox:hover {
+  cursor: pointer;
+}
+
+.polaroid img {
+  width: 350px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  width: 80%;
+}

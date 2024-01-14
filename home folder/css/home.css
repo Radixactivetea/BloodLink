@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* section 1*/
+#home-registration {
+	padding: 70px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+}
+
+#home-registration .home-form {
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+}
+
+#home-registration .home-form input{
+	margin: 15px 0;
+	padding: 15px 10px;
+	border: 1px solid;
+	outline: none;
+}
+
+#home-registration .home-form .home-btn {
+	margin-top: 20px;
+}
+
+#home-registration .home-form a.btn{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 13px 35px;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	color: #ffffff;
+	background: #317c31;
+	transition: 0.3s ease;
+}
+
+/* section 2 */
+#home-ads {
+	padding: 70px;
+	text-align: center;
+}
+
+#home-ads .mySlides {display: none;}
+
+#home-ads img {vertical-align: middle;}
+
+/* Slideshow container */
+#home-ads .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+#home-ads .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto-fit;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+#home-ads .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#home-ads .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/*#home-ads .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}*/
+
+/* Number text (1/3 etc) */
+/*#home-ads .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}*/
+
+/* The dots/bullets/indicators */
+#home-ads .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#home-ads .active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#home-ads .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#home-ads @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+/*#home-ads @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}*/
+
+/* section 3 */
+#home-news {
+	padding: 70px;
+	text-align: center;
+}
+
+#home-news .news {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
+}
+
+#home-news .news-box {
+	text-align: start;
+	background: #ffffff;
+	height: 100%;
+}
+
+#home-news .news-box .details {
+	padding: 15px 15px 0 15px;
+}
+
+/* section 1: search-blood */
+#search-blood {
+	padding: 100px;
+	text-align: start;
+	color: #000000;
+}
+
+#search-blood h1 {
+	color: #fff;
+	border-bottom: 1px solid #f2f2f2;
+}

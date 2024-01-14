@@ -1,0 +1,158 @@
+/*===========================================
+  about us page 
+===========================================*/
+.heading {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.heading h1 {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.heading p {
+  font-size: 23px;
+  color: black;
+  margin-bottom: 50px;
+  font-family: Georgia;
+}
+
+.about-us {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.about-us img {
+  flex: 0 50%;
+  max-width: 50%;
+  height: auto;
+}
+
+.content {
+  padding: 35px;
+}
+
+.content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin: 15px 0px;
+}
+
+.content p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+
+.about-us a {
+  display: inline-block;
+  color: #fff;
+  background-color: #8b0000;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.about-us a:hover {
+  background-color: #ba361f;
+}
+
+@media (max-width: 500px) {
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-us img {
+    flex: 0 100%;
+    max-width: 100%;
+  }
+
+  .content {
+    flex: 0 100%;
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+.wrapper {
+  margin-top: 1%;
+}
+.wrapper h1 {
+  font-family: "Allura", cursive;
+  font-size: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #8b0000;
+}
+#service-section {
+  display: none;
+}
+
+.service {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+.service .service_provide {
+  background: rgb(248, 239, 239);
+  margin: 10px;
+  margin-bottom: 70px;
+  width: 500px;
+  padding: 30px;
+  line-height: 30px;
+  color: #1e0202;
+  position: relative;
+}
+.service .service_provide h3 {
+  color: #380707;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: Garamond;
+}
+.service .service_provide .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 90%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+}
+.service .service_provide .img img {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+}
+
+.contact .contact_detail {
+  background: rgb(168, 164, 208);
+  margin: 20px auto;
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 100px;
+  line-height: 25px;
+  color: #1e0202;
+  position: relative;
+  text-align: center;
+}
+
+.contact .contact_detail .img img {
+  flex: 0 100%;
+  max-width: 100%;
+  height: auto;
+}
+.contact .contact_detail h3 {
+  color: #380707;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: Garamond;
+}
