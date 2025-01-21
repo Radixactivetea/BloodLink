@@ -23,6 +23,7 @@
 	
 	<!-- section 1 -->
 	<section id="search-blood">
+	<p>This is added to show conflict - 2</p>
 		<h1>Blood Stock Availabilities</h1>
 
 		<div class="row mt-3">
