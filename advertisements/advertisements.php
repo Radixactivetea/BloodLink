@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <?php include('../user_nav.php');
+  <?php include('../user_nav.php'); //reusable user_nav
   ?>
 
   <section id="advertisements">
