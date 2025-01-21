@@ -7,7 +7,9 @@ include('../config.php');
 
 <head>
     <title>BloodLink</title>
-    <p>This is added to show conflict</p>
+    <p>This is added to show conflict resolved</p>
+
+
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <link rel="stylesheet" href="../css/nav_footer.css">
     <link rel="stylesheet" href="css/style.css">
