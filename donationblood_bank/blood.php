@@ -20,7 +20,7 @@
 <body>
 	<!-- menu bar -->
 	<?php include('../user_nav.php') ?>
-	
+	<p>This is added to show conflict</p>
 	<!-- section 1 -->
 	<section id="search-blood">
 	<p>This is added to show conflict - 2</p>
