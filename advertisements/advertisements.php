@@ -7,7 +7,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advertisements</title>
+  <title>BloodLink Advertisements</title> 
   <link rel="stylesheet" href="../css/nav_footer.css">
   <link rel="stylesheet" href="css/ads_style.css">
   <script src="https://kit.fontawesome.com/9aa99ba8cc.js" crossorigin="anonymous"></script>
